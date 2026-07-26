@@ -389,3 +389,37 @@ footer{
     background:#38bdf8;
     border-radius:20px;
 }
+/* Mobile Navbar */
+@media (max-width: 768px){
+
+    nav{
+        padding: 15px 20px;
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 200px;
+        background: #08111f;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .nav-links a{
+        margin: 10px 0;
+    }
+
+}
